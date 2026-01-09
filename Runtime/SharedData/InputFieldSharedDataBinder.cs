@@ -4,6 +4,10 @@ using TriInspector;
 using UnityEngine;
 namespace qb.Datas
 {
+    /// <summary>
+    /// Binds a TMP_InputField to a String_SharedData asset, synchronizing input field changes with shared data and
+    /// dispatching update events.
+    /// </summary>
     [AddComponentMenu("qb/UI/Shared Datas/InputFieldSharedDataBinder")]
     public class InputFieldSharedDataBinder : MonoBehaviour
     {

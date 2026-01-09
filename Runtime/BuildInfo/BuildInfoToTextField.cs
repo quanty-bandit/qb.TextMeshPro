@@ -4,6 +4,9 @@ using TriInspector;
 
 namespace qb.EnvironmentBuild
 {
+    /// <summary>
+    /// Displays build information in a TMP_Text component at startup.
+    /// </summary>
     [RequireComponent(typeof(TMP_Text))]
     public class BuildInfoToTextField : MonoBehaviour
     {
